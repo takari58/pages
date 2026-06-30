@@ -60,7 +60,7 @@ body {
 /* 地図 */
 
 #map {
-    height: 10000px;
+    height: 1000px;
     width: 90%;
     margin: auto;
     border: 2px solid black;
