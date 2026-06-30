@@ -4,6 +4,13 @@ body {
     margin: 0;
 }
 
+#map {
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+}
+
 /* ===== メニューボタン ===== */
 .menu-btn {
     position: fixed;
