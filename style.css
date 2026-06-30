@@ -47,6 +47,7 @@ body {
     width: 90%;
     margin: auto;
     border: 2px solid black;
+    z-index:1900;
 }
 
 /* 結果 */
