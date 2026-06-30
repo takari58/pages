@@ -17,11 +17,11 @@ body {
     cursor: pointer;
     z-index: 10000;
 }
-
+/*
 .leaflet-control {
     z-index: 500;
 }
-
+*/
 .leaflet-pane {
     z-index: 100 !important;
 }
@@ -36,20 +36,29 @@ body {
     left: -220px;
     width: 220px;
     height: 100%;
-    background: rgba(0,0,0,0.9);
-    transition: 0.3s;
-    padding-top: 60px;
-    z-index: 9999;
-}
+    background-color: #444;  /* ← 半透明やめる */
+    transition: left 0.3s;
 
+    z-index: 9999;
+
+    display: flex;              /* ← これ重要 */
+    flex-direction: column;
+}
+/* メニューの中身 */
 
 .menu a {
-    display: block;
     color: white;
-    padding: 15px;
     text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid #666;
+
+    display: block;   /* ← 忘れると消える */
 }
 
+/* ホバー */
+.menu a:hover {
+    background-color: #666;
+}
 .menu.open {
     left: 0;
 }
