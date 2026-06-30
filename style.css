@@ -5,6 +5,7 @@ body {
 }
 
 /* ハンバーガー */
+
 .menu-btn {
     position: fixed;
     top: 10px;
@@ -14,21 +15,34 @@ body {
     color: white;
     padding: 10px;
     cursor: pointer;
-    z-index: 2100;
+    z-index: 10000;
 }
 
+.leaflet-control {
+    z-index: 500;
+}
+
+.leaflet-pane {
+    z-index: 100 !important;
+}
+``
+
+
+
 /* メニュー */
+
 .menu {
     position: fixed;
     top: 0;
-    left: -200px;
-    width: 200px;
+    left: -220px;
+    width: 220px;
     height: 100%;
-    background: #444;
+    background: rgba(0,0,0,0.9);
     transition: 0.3s;
-    padding-top: 50px;
-    z-index: 2000;
+    padding-top: 60px;
+    z-index: 9999;
 }
+
 
 .menu a {
     display: block;
@@ -37,18 +51,23 @@ body {
     text-decoration: none;
 }
 
+
 .menu.open {
     left: 0;
 }
 
+
 /* 地図 */
+
 #map {
     height: 500px;
     width: 90%;
     margin: auto;
     border: 2px solid black;
-    z-index:1900;
+    position: relative;
+    z-index: 1;
 }
+
 
 /* 結果 */
 #result {
