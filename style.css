@@ -17,11 +17,11 @@ body {
     cursor: pointer;
     z-index: 10000;
 }
-/*
+
 .leaflet-control {
     z-index: 500;
 }
-*/
+
 .leaflet-pane {
     z-index: 100 !important;
 }
