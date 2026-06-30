@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>しばたGO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ハンバーガーメニュー -->
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+<div id="menu" class="menu">
+    <a href="index.html">ホーム</a>
+    <a href="map.html">地図</a>
+    <a href="camera.html">カメラ</a>
+</div>
+
+<h1>しばたGOへようこそ</h1>
+
+<p>観光 × 防災 × クイズアプリ</p>
+
+<a class="start-btn" href="map.html">スタート</a>
+
+<script>
+function toggleMenu(){
+    document.getElementById("menu").classList.toggle("open");
+}
+</script>
+
+</body>
+</html>
