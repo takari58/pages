@@ -14,7 +14,7 @@ body {
     color: white;
     padding: 10px;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 2100;
 }
 
 /* メニュー */
@@ -27,6 +27,7 @@ body {
     background: #444;
     transition: 0.3s;
     padding-top: 50px;
+    z-index: 2000;
 }
 
 .menu a {
