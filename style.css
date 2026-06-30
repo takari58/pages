@@ -28,7 +28,6 @@ body {
 ``
 
 
-
 /* メニュー */
 
 .menu {
@@ -47,20 +46,18 @@ body {
 .menu a {
     display: block;
     color: white;
-    padding: 30px;
+    padding: 15px;
     text-decoration: none;
 }
-
 
 .menu.open {
     left: 0;
 }
 
-
 /* 地図 */
 
 #map {
-    height: 500px;
+    height: 700px;
     width: 90%;
     margin: auto;
     border: 2px solid black;
@@ -68,11 +65,10 @@ body {
     z-index: 1;
 }
 
-
 /* 結果 */
 #result {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 18px;
     color: blue;
 }
 
@@ -87,7 +83,7 @@ body {
 .start-btn {
     display: inline-block;
     margin-top: 20px;
-    padding: 20px 30px;
+    padding: 10px 20px;
     background: green;
     color: white;
     text-decoration: none;
