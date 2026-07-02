@@ -70,7 +70,7 @@ const spots = [
         radius: 50,
     },
     {
-        name: "イクネス",
+        name: "イクネスしばた",
         lat: 37.944357,
         lng: 139.333388,
         radius: 30,
@@ -87,14 +87,12 @@ const spots = [
         lng: 139.32774756292181,
         radius: 30,
     },
-    /*
     {
-        name: "元役所",
-        lat: ,
-        lng: ,
+        name: "旧新発田市役所",
+        lat: 37.950883,
+        lng: 139.327898,
         radius: 30,
     },
-    */
     {
         name: "新潟職能短大",
         lat: 37.956067,
@@ -198,7 +196,7 @@ navigator.geolocation.watchPosition(position => {
 const altitude = position.coords.altitude;
 //取得できない場合は表示できない
 const altitudeText = altitude !== null
-    ?'${altitude}m'  //
+    ?'${altitude}m'
     :"取得できません";
 
 //画面上に緯度経度表示(小数点以下6桁)
