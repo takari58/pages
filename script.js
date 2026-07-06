@@ -5,7 +5,7 @@ const spots = [
         lat: 37.954824724542696,   //緯度
         lng: 139.326001834219947,  //経度
         radius: 50,                //leaflet-circle-radius[m]
-        image:"image/castle.png"         //イメージ画像
+        image:"castle.png"         //イメージ画像
     },
     {
         name: "清水園",
@@ -48,7 +48,7 @@ const spots = [
         lat: 37.939869,
         lng: 139.356680,
         radius: 80,
-        image:"image/park.png",
+        image:"park.png",
     },
     {
         name: "カルチャーセンター",
@@ -61,7 +61,7 @@ const spots = [
         lat: 37.94413,
         lng: 139.33510,
         radius: 30,
-        image:"image/station.png",
+        image:"station.png",
     },
     {
         name: "あやめの湯",
@@ -98,7 +98,7 @@ const spots = [
         lat: 37.956067,
         lng: 139.337938,
         radius:150,
-        image:"image/school.png",
+        image:"school.png",
     },
     {
         name: "菊水",
