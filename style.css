@@ -5,7 +5,11 @@ body {
 }
 
 h1{
-    font-size : 50px;
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px;
 }
 
 #map {
@@ -58,7 +62,7 @@ h1{
     color: white;
     text-decoration: none;
     padding: 15px;
-    font-size: 18px;
+    font-size: 30px;
 
     border-bottom: 1px solid #666;
 }
@@ -76,11 +80,13 @@ h1{
     background: green;
     color: white;
     text-decoration: none;
+    font-size: 30px;
 }
 
 #coords{
     font-size:30px;
 }
+
 #result{
     font-size: 30px;
 }
