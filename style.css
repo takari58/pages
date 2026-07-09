@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+h1{
+    font-size : 50px;
+}
+
 #map {
     height: 1500px;
     width: 90%;
