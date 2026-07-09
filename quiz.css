@@ -72,3 +72,11 @@ button:active {
 #scoreScreen {
     margin-top: 100px;
 }
+
+#explanation{
+    margin-top:10px;
+    padding:10px;
+    background:#f5f5f5;
+    border-radius:8px;
+    line-height:1.5;
+}
