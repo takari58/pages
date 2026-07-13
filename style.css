@@ -1,93 +1,33 @@
 body {
     font-family: Arial;
     text-align: center;
-    margin: 0;
 }
 
-h1{
-    font-size: 50px;
-}
-
-p{
-    font-size: 30px;
-}
-
+/* 地図 */
 #map {
-    height: 1500px;
+    height: 500px;
     width: 90%;
     margin: auto;
     border: 2px solid black;
 }
 
-/* ===== メニューボタン ===== */
-.menu-btn {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    font-size: 40px;
-    background: #333;
-    color: white;
-    padding: 20px;
-    cursor: pointer;
-    z-index: 10000;
-}
-
-/* ===== メニュー本体 ===== */
-.menu {
-    position: fixed;
-    top: 0;
-    left: -250px;   /* 最初は隠す */
-    width: 250px;
-    height: 100%;
-    background: #444;
-
-    transition: left 0.3s;
-
-    z-index: 9999;
-
-    padding-top: 60px;
-
-    /* 忘れがち */
-    overflow: visible;
-}
-
-/* 開いた状態 */
-.menu.open {
-    left: 0;
-}
-
-/* ===== メニュー項目 ===== */
-.menu a {
-    display: block;           /* ← 超重要 */
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 30px;
-
-    border-bottom: 1px solid #666;
-}
-
-/* ホバー */
-.menu a:hover {
-    background: #666;
-}
-
-/* ===== ボタン ===== */
-.start-btn {
-    display: inline-block;
+/* 結果 */
+#result {
     margin-top: 20px;
-    padding: 10px 20px;
-    background: green;
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
+    font-size: 18px;
+    color: blue;
 }
 
-#coords{
-    font-size:30px;
-}
-
-#result{
-    font-size: 30px;
+/* 現在地表示（緯度・経度・） */
+#coords {
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
 }
 
