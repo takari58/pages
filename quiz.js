@@ -137,7 +137,6 @@ const quizData = {
           explanation:"店内からは枯山水の日本庭園を眺めることができます" }
     ],
 };
-
 // ===== URL取得 =====
 const params = new URLSearchParams(window.location.search);
 const spotName = params.get("spot");
@@ -146,9 +145,9 @@ document.getElementById("title").textContent = spotName + " クイズ";
 
 const quizzes = quizData[spotName];
 
-let index = 0;    //問題数
-let score = 0;    //正答数
-const POINT = 20; //1問20点
+let index = 0;
+let score = 0;
+const POINT = 20;
 
 // ===== 問題表示 =====
 function showQuiz() {
@@ -161,7 +160,6 @@ showQuiz();
 
 // ===== 回答 =====
 function answer(userAnswer) {
-
     const quiz = quizzes[index];
     const correct = quiz.a;
 
@@ -171,15 +169,14 @@ function answer(userAnswer) {
     } else {
         document.getElementById("result").textContent = "不正解…";
     }
-
-    // 解説表示
+    //解説表示
     document.getElementById("explanation").textContent =
         "解説： " + quiz.explanation;
 
     index++;
 
     if (index < quizzes.length) {
-        setTimeout(showQuiz, 2500);
+        setTimeout(showQuiz, 1000);
     } else {
         setTimeout(showScore, 2500);
     }
@@ -193,7 +190,7 @@ function showScore() {
     //スコア表示画面
     document.getElementById("scoreScreen").classList.remove("hidden");
     
-    const totalScore = score * POINT; // 点数計算
+    const totalScore = score * POINT; // ★ 点数計算
 
     document.getElementById("scoreText").textContent =
         `${quizzes.length}問中 ${score}問正解（${totalScore}点）`;
