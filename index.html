@@ -1,32 +1,25 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!DOCTYPE html><!DOCTYPE html="ja">
 <head>
-<meta charset="UTF-8">
-<title>しばたGO</title>
-<link rel="stylesheet" href="style.css">
-</head>
+    <meta charset="UTF-8">
+    <title>しばたGOマップ</title>
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-<!-- ハンバーガーメニュー -->
-<div class="menu-btn" onclick="toggleMenu()">☰</div>
+<h2>しばたGOマップ</h2>
 
-<div id="menu" class="menu">
-    <a href="index.html">ホーム</a>
-    <a href="map.html">地図</a>
-</div>
+<div id="map"></div>
 
-<h1>しばたGO</h1>
+<div id="coords"></div>
 
-<p>観光 × 防災 × クイズアプリ</p>
+<div id="result">現在地を取得中...</div>
 
-<a class="start-btn" href="map.html">スタート</a>
-
-<script>
-function toggleMenu(){
-    document.getElementById("menu").classList.toggle("open");
-}
-</script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
+
+
