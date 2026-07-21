@@ -155,6 +155,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
+//追加
+L.marker(LatLng,{rotationAngle:45});
+
 //配列で指定したランドマークにマーカー表示
 spots.forEach(spot => {
     //マーカークリック時にランドマーク名称とイメージ画像表示
