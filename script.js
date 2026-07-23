@@ -17,19 +17,19 @@ const spots = [
         name: "蔵春閣",
         lat: 37.94389807273562,
         lng: 139.3317142467578,
-        radius: 10
+        radius: 20
     },
     {
         name: "東公園のSL",
-        lat: 37.94367248807764,
-        lng: 139.3323475293261,
-        radius: 10,
+        lat: 37.94371455113034,
+        lng: 139.33219327519282,
+        radius: 20,
     },
     {
         name: "諏訪神社",
         lat: 37.944214,
         lng: 139.332004,
-        radius: 10,
+        radius: 20,
     },
     {
         name: "新発田市役所",
@@ -54,13 +54,13 @@ const spots = [
         name: "カルチャーセンター",
         lat: 37.950246,
         lng: 139.338618,
-        radius: 30,
+        radius: 45,
     },
     {
         name: "新発田駅",
         lat: 37.94413,
         lng: 139.33510,
-        radius: 30,
+        radius: 35,
         image:"image/station.png",
     },
     {
@@ -114,36 +114,43 @@ const spots2 =[
       name: "藤倉メンチカツや",
       lat: 37.93682,
       lng: 139.34488,
+      unlockPoint:480
     },
     {
       name: "ボン・タケダ",
       lat: 37.94039, 
       lng: 139.33600,
+      unlockPoint:960
     }, 
     {
       name: "いっぷく",
       lat: 37.94437654050752, 
       lng: 139.3407439626735,
+      unlockPoint:1440
     },
     {
       name: "文化洋食ino",
       lat: 37.96236411397717, 
       lng: 139.33428189358867 ,
+      unlockPoint:1920
     },
     {
       name: "やすけカレー",
       lat: 37.93774827263629, 
       lng: 139.33615892651278 ,
+      unlockPoint:2400
     },
     {
       name: "激レア６",
       lat: 37.93774827263629, 
       lng: 139.33615892651278 ,
+      unlockPoint:2880
     },
     {
       name: "激レア７",
       lat: 37.93774827263629, 
       lng: 139.33615892651278 ,
+       unlockPoint:3360
     },
 ]
 
